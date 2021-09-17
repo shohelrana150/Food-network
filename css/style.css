@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+header{
+    padding-bottom: 150px;
+}
+header ul{
+    display: flex;
+    float: right;
+}
+header ul li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0px 20px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    
+}
+.color-tomato{
+    color: tomato;
+}
+.banner-part{
+   height: 500px;
+}
+.banner-width{
+    width: 40%;
+    float: left;
+    margin: 0px 5%;
+}
+.banner-part h1{
+    font-size: 40px;
+   
+}
+.banner-width p{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 30px;
+    color: white;
+    
+}
+.banner-width img{
+    width: 80%;
+}
+.about-part{
+    height: 380px;
+    background-image: url("../images/shapes/Frame\ 56.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.about-me{
+    font-size: 30px;
+    color: grey;
+}
+.recipies-area{
+    padding-top: 100px;
+  height: 700px;
+}
+.recipies-head{
+    text-align: center;
+}
+.recipies-head h2{
+    font-size: 30px;
+    color: gray;
+}
+.recipies-box p,
+.recipies-head p{
+    color: grey;
+    font-size: 20px;
+}
+.recipies-box{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.recipies-box img{
+ 
+    width: 100%;
+}
+
+.recipies-box h3{
+    font-size: 25px;
+}
+.subscribe-area{
+   width: 80%;
+    height: 150px;
+    box-shadow: 5px 5px 40px gray;
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    border-radius: 15px;
+    
+}
+.sub-box{
+    margin-left: 5%;
+    
+}
+.sub-half{
+    width: 30%;
+    float: left;
+    text-align: center;
+    /* margin-top: 50px; */
+    
+}
+.sub-half h3{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #211F1E;
+    padding: 10px 0px 50px;
+}
+footer h2{
+    color: #6d6260;
+}
+footer p{
+    color: #706c6c;
+}
